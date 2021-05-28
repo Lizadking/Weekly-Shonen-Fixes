@@ -7,7 +7,7 @@ Description: This progam is designed to fix the zoom issue with the Viz shonen j
             matches the saved zoom values if not modify the canvas css to reflect the changed zoom values 
 
 */
-
+//THIS IS A GIT TEST
 //event listeners, tell the user if they zoomed in or out
 const zoomInButton = document.querySelector('#reader_tools > a.reader-icon.pad-sm.type-rg.line-solid.hover-red.reader-zoom.zoom-in');
 const zoomOutButton = document.querySelector('#reader_tools > a.reader-icon.pad-sm.type-rg.line-solid.hover-red.reader-zoom.zoom-out');
