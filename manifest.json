@@ -1,0 +1,24 @@
+
+
+{
+  "manifest_version": 2,
+  "name": "Weekly Shōnen fixes",
+  "version": "0.0.1",
+  "description": "Developing version",
+  "icons":{
+      "128":"temp_128.png",
+      "48":"temp48.png",
+      "16":"temp16.png"
+  },
+  "permissions": ["tabs","*://*.viz.com/*",
+      "activeTab"
+    ],
+
+  "content_scripts": [
+      {
+        "matches": ["*://*.viz.com/shonenjump/*chapter/*"],
+        "css": ["myStyles.css"],
+        "js": ["contentScript.js"]
+      }
+    ]
+}
